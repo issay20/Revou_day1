@@ -74,6 +74,12 @@ nav .logo img {
     flex-direction: column;
     justify-content: center;
     max-width: 50%;
+    margin-top: 80px;
+}
+
+.content-wrapper p {
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -105,44 +111,9 @@ a {
     padding-left: 250px;
 }
 
-/* responsive */
-
-@media screen and (max-width:768px) {
-    nav {
-        flex-direction: initial;
-        margin: 0rem;
-    }
-
-    nav .logo {
-        margin-top: 2rem;
-        text-align: left;
-        width: 100%;
-    }
-
-    nav ul {
-        padding-inline-start: 0;
-        margin: 3rem;
-    }
-
-    h1 {
-        margin-top: 0px;
-    }
-
-    .content-wrapper {
-        max-width: 100% !important;
-        margin-top: auto;
-    }
-
-    img {
-        width: 60%;
-        margin: 0 auto;
-        padding: 2rem 0 2rem 0;
-    }
-}
-
-
-@media screen and (min-width: 100px) {
-    .contents {
-        padding-top: 6rem;
-    }
+.picture img {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 300px;
+    height: 300px;
 }
